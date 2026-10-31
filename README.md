@@ -25,7 +25,7 @@ O projeto simula a experiência física de um gestograma de papel/plástico, mas
 Como o projeto é 100% frontend (não possui backend), você pode executá-lo de duas formas:
 
 1.  **Direto no navegador:** Basta baixar ou clonar o repositório e dar um duplo clique no arquivo `index.html`.
-2.  **Pelo GitHub Pages:** (Se você ativou o Pages) Acesse o link ao vivo: `https://gustavolternberg.github.io/gestograma/`
+2.  **Pelo GitHub Pages:** (Se você ativou o Pages) Acesse o link ao vivo: `https://gustavoltemberg.github.io/gestograma/`
 
 ## 📸 Demonstração
 
@@ -36,4 +36,4 @@ Como o projeto é 100% frontend (não possui backend), você pode executá-lo de
 Este projeto foi desenvolvido com fins educacionais e de apoio informativo. **Ele não substitui, de forma alguma, a avaliação de um médico ou obstetra.** A idade gestacional e a DPP devem sempre ser confirmadas por um profissional de saúde, especialmente com o auxílio de ultrassonografias.
 
 ---
-Desenvolvido por [Gustavo Ltenberg](https://github.com/gustavolternberg).
+Desenvolvido por [Gustavo Iltemberg](https://github.com/gustavolternberg).
