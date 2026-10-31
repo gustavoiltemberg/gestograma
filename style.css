@@ -1,0 +1,92 @@
+/* =========================================
+   ESTILOS GERAIS
+   ========================================= */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    user-select: none; 
+}
+
+/* =========================================
+   CONTROLES (Input e Label)
+   ========================================= */
+.controles {
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    font-size: 1.1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* =========================================
+   RODA (Gestograma)
+   ========================================= */
+.roda-container {
+    position: relative;
+    width: 500px;  
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    background-color: white; 
+}
+
+.img-azul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    object-fit: contain; 
+    pointer-events: none; 
+}
+
+.img-verde {
+    position: absolute;
+    top: 10%; 
+    left: 10%; 
+    width: 80%; 
+    height: 80%;
+    z-index: 2;
+    transform-origin: center center; 
+    object-fit: contain;
+    cursor: grab; 
+    border-radius: 50%;
+    /* Animação suave ao alterar a data */
+    transition: transform 0.5s ease-out;
+}
+
+.img-verde:active {
+    cursor: grabbing; 
+}
+
+/* =========================================
+   RESULTADO
+   ========================================= */
+.resultado {
+    margin-top: 20px;
+    background-color: #0056b3;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    text-align: center;
+    min-width: 300px;
+}

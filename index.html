@@ -5,91 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestograma Digital</title>
     
+    <!-- Bibliotecas externas (Flatpickr) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/material_blue.css">
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 20px;
-            margin: 0;
-            user-select: none; 
-        }
-
-        .controles {
-            background-color: white;
-            padding: 15px 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-            text-align: center;
-        }
-
-        input[type="text"] {
-            font-size: 1.1em;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            margin-top: 10px;
-            width: 150px;
-            text-align: center;
-            cursor: pointer;
-        }
-
-        .roda-container {
-            position: relative;
-            width: 500px;  
-            height: 500px;
-            border-radius: 50%;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-            background-color: white; 
-        }
-
-        .img-azul {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-            object-fit: contain; 
-            pointer-events: none; 
-        }
-
-        .img-verde {
-            position: absolute;
-            top: 10%; 
-            left: 10%; 
-            width: 80%; 
-            height: 80%;
-            z-index: 2;
-            transform-origin: center center; 
-            object-fit: contain;
-            cursor: grab; 
-            border-radius: 50%;
-            /* Adiciona uma animação suave quando a data é alterada no calendário */
-            transition: transform 0.5s ease-out;
-        }
-
-        .img-verde:active {
-            cursor: grabbing; 
-        }
-
-        .resultado {
-            margin-top: 20px;
-            background-color: #0056b3;
-            color: white;
-            padding: 15px 30px;
-            border-radius: 10px;
-            font-size: 1.1em;
-            text-align: center;
-            min-width: 300px;
-        }
-    </style>
+    <!-- SEU ARQUIVO CSS SEPARADO -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -107,6 +28,7 @@
 
     <div class="resultado" id="resultadoTexto"></div>
 
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/pt.js"></script>
     <script src="script.js"></script>

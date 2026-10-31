@@ -1,0 +1,7 @@
+# Força o GitHub a contar HTML e JS
+*.js linguist-detectable=true
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+
+# Diz que o projeto principal é JavaScript
+*.html linguist-vendored=false
