@@ -4,6 +4,8 @@ Um gestograma digital interativo e responsivo, criado para auxiliar no cálculo 
 
 O projeto simula a experiência física de um gestograma de papel/plástico, mas com a facilidade e precisão do ambiente digital.
 
+### 🚀 [Clique aqui para acessar o Gestograma ao vivo!](https://gustavolternberg.github.io/gestograma/)
+
 ## ✨ Funcionalidades
 
 *   **Cálculo Automático:** Idade gestacional em semanas e dias, e DPP calculada com base na regra de Naegele (280 dias).
