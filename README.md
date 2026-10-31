@@ -29,11 +29,11 @@ Como o projeto é 100% frontend (não possui backend), você pode executá-lo de
 
 <img width="610" height="808" alt="Captura de tela 2026-10-31 020040" src="https://github.com/user-attachments/assets/799cc846-c4eb-4261-8b07-91b5fd8ea910" />
 
-### 🚀 [Clique aqui para acessar o Gestograma ao vivo!](https://gustavolternberg.github.io/gestograma/)
+### 🚀 [Clique aqui para acessar o Gestograma ao vivo!](https://gustavoilternberg.github.io/gestograma/)
 
 ## ⚠️ Aviso Importante
 
 Este projeto foi desenvolvido com fins educacionais e de apoio informativo. **Ele não substitui, de forma alguma, a avaliação de um médico ou obstetra.** A idade gestacional e a DPP devem sempre ser confirmadas por um profissional de saúde, especialmente com o auxílio de ultrassonografias.
 
 ---
-Desenvolvido por [Gustavo Iltemberg](https://github.com/gustavolternberg).
+Desenvolvido por [Gustavo Iltemberg](https://github.com/gustavoilternberg).
