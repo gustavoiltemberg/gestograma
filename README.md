@@ -1,5 +1,3 @@
-### 🚀 [Clique aqui para acessar o Gestograma ao vivo!](https://gustavolternberg.github.io/gestograma/)
-
 # 📅 Gestograma Digital
 
 Um gestograma digital interativo e responsivo, criado para auxiliar no cálculo da idade gestacional e da Data Provável do Parto (DPP) a partir da Data da Última Menstruação (DUM). 
@@ -29,7 +27,9 @@ Como o projeto é 100% frontend (não possui backend), você pode executá-lo de
 
 ## 📸 Demonstração
 
-*(Dica: Tire um print da tela do seu gestograma rodando e arraste a imagem para cá depois de escrever o README no GitHub)*
+<img width="610" height="808" alt="Captura de tela 2026-10-31 020040" src="https://github.com/user-attachments/assets/799cc846-c4eb-4261-8b07-91b5fd8ea910" />
+
+### 🚀 [Clique aqui para acessar o Gestograma ao vivo!](https://gustavolternberg.github.io/gestograma/)
 
 ## ⚠️ Aviso Importante
 
